@@ -6,7 +6,7 @@
 # Fixes
 - `read_cfg` didn't properly overwrite config options
 - logging would sometimes crash if it returned an empty vec
-- fix double-logging of avg fps (d8dbe68)
+- fix double-logging of avg fps
 - nvidia: warn if both nvml and xnvctrl are unavailable
 - mangoapp didn't properly respond to hide/show hud
 - add 32bit xkbcommon to project dependencies
