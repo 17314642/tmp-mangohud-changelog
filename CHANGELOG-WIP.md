@@ -13,8 +13,7 @@
 - add missing dependencies for opensuse
 - proper vsync implementation
 - refactor FPS calculation in metrics
-- fix gpu and vram displaying incorrectly in horizontal mode
-- fix network for horizontal bar
+- fix network, gpu and vram displaying incorrectly in horizontal mode
 
 # Changes
 - Multiple GPUs can be displayed
