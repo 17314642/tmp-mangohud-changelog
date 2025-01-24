@@ -1,3 +1,5 @@
+Currently 33% is done, scroll below to find where I stopped.
+
 ### Changes:
 + e6b7304 [blacklist] Add Ubisoft store
 + 193fdc7 logging: add cpu power
