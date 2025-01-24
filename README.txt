@@ -1,8 +1,21 @@
 ### Changes:
++ e6b7304 [blacklist] Add Ubisoft store
++ 193fdc7 logging: add cpu power
++ d102604 fpsmetrics: refactor FPS calculation in metrics
 
 ### Fixes:
++ 2937785 params: fix read_cfg not overriding config options
++ ed6cf22 present_mode: proper vsync implementation
++ 2d0c0a1 doc: add network_color to README and MangoHud.conf
++ 159eb13 wayland: Fix some issues with wayland keybinds
++ c0afb84 shell: edit the command if steam runtime
++ 4933695 build deps: arch: add 32bit xkbcommon
++ a6422bc Build.sh: add missing deps for suse
++ 2e7e86f vulkan: Fix present mode fallback override
++ 8b7dae6 Fix compilation without wayland
 
 ### Parameters:
++ 7cfca3f param: display_server
 
 ### All commits from 0.7.2:
 
@@ -68,6 +81,11 @@
 + 2e7e86f vulkan: Fix present mode fallback override
 + 8b7dae6 Fix compilation without wayland
 - feef6e3 Include map header in hud_elements.h
+
+
+=====================================================================================================
+FINISHED HERE (33% done)
+=====================================================================================================
 
 
 + d224507 Rework GPUs to allow for multiple
