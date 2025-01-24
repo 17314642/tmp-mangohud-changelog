@@ -20,6 +20,9 @@
 - Changed logger errors to debug
 - Added CPU power to logging
 - Improved wayland keybinds
+- Memory usage has been refactored to be inline with other apps
+- mangoapp vulkan layer is deleted (it was a testing project and no longer in development)
+
 - If using `exec` and inside steam runtime, launch command using `steam-runtime-launch-client`
   - If mangohud is used inside flatpak, you need to allow your app to speak on `org.freedesktop.Flatpak` dbus address.
     Example if you're using mangohud in steam: `flatpak override --user --talk-name=org.freedesktop.Flatpak com.valvesoftware.Steam`
@@ -29,13 +32,8 @@
   - Temperature and Power Usage is not available for integrated gpus
   - VRAM and GPU Usage is per-process not per-system (that would require root rights)
 
-- Memory usage has been refactored to be inline with other apps
-
 - Multiple GPUs support:
     - By default, MangoHud displays all GPUs. To select needed GPUs, you can use `gpu_list` or `pci_dev`
-
-- Mangoapp:
-  - vulkan layer is deleted (it was a testing project and no longer in development)
 
 # Params
 - `network_color`  sets the color of the network hud element
