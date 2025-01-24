@@ -13,14 +13,13 @@
 - add missing dependencies for opensuse
 - proper vsync implementation
 - refactor FPS calculation in metrics
-- fix network, gpu and vram displaying incorrectly in horizontal mode
+- fix exec, network, gpu and vram displaying incorrectly in horizontal mode
 
 # Changes
 - Multiple GPUs can be displayed
 - Changed logger errors to debug
 - Added CPU power to logging
 - Improved wayland keybinds
-- `exec` was overlapping itself in horizontal
 - If using `exec` and inside steam runtime, launch command using `steam-runtime-launch-client`
   - If mangohud is used inside flatpak, you need to allow your app to speak on `org.freedesktop.Flatpak` dbus address.
     Example if you're using mangohud in steam: `flatpak override --user --talk-name=org.freedesktop.Flatpak com.valvesoftware.Steam`
