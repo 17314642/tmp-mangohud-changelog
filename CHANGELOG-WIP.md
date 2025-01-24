@@ -11,12 +11,10 @@
 - mangoapp didn't properly respond to hide/show hud
 - add 32bit xkbcommon to project dependencies
 - add missing dependencies for opensuse
-
-- ed6cf22 present_mode: proper vsync implementation
-- d102604 fpsmetrics: refactor FPS calculation in metrics
-- b58811b horizontal: fix gpu and vram displaying incorrectly
-- ba35a61 Fixed cpu temp not getting updated
-- afaa7d1 Fix network for horizontal bar
+- proper vsync implementation
+- refactor FPS calculation in metrics
+- fix gpu and vram displaying incorrectly in horizontal mode
+- fix network for horizontal bar
 
 # Changes
 - Multiple GPUs can be displayed
@@ -39,14 +37,10 @@
     - By default, MangoHud displays all GPUs. To select needed GPUs, you can use `gpu_list` or `pci_dev`
 
 - Mangoapp:
-  - vulkan layer is deleted
-  - add support for proc_mem and io_read/write inside gamescope
-
-- OpenGL shim:
-  - lorem ipsum about opengl shim, should it be mentioned?
+  - vulkan layer is deleted (it was a testing project and no longer in development)
 
 # Params
 - `network_color`  sets the color of the network hud element
 - `display_server` shows if the display server is Xorg, Xwayland or wayland
 - `gpu_list` set the GPUs to display in the hud e.g `gpu_list=0,1`
-- `proc_mem` and `io_read` now works properly in gamescope
+- `proc_mem` and `io_read` now works properly in gamescope (mangoapp)
